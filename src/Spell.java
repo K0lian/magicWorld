@@ -16,6 +16,7 @@ public class Spell {
         this.school = school;
     }
 
+
     public int getDamage() {
         return damage;
     }
@@ -59,5 +60,16 @@ public class Spell {
 
     public void setSchool(String school) {
         this.school = school;
+    }
+
+    @Override
+    public String toString() {
+        return "Spell{" +
+                "name='" + name + '\'' +
+                ", effect='" + effect + '\'' +
+                ", level=" + level +
+                ", school='" + school + '\'' +
+                ", damage=" + damage +
+                '}';
     }
 }

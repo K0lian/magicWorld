@@ -2,7 +2,7 @@ public class Warlock {
     private int hp = 100;
     private int lastDamage=0;
     private String name;
-    private SpellBook book = new SpellBook();
+    private SpellBook book;
 
     public int getLastDamage() {
         return lastDamage;
